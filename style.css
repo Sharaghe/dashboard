@@ -117,6 +117,11 @@ h1{
     display: block;
 }
 
+.card .project-info span{
+    color: #888;
+    font-size: .8rem;
+}
+
 .card .info-text{
     font-size: .7rem;
     color: #777;
@@ -137,6 +142,17 @@ main .announcements{
 
 main .trending{
     grid-area: 2/2/3/3;
+}
+
+ul.trending-list{
+    display: grid;
+    gap: 20px;
+}
+
+ul.trending-list li{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
 
 .icon{
